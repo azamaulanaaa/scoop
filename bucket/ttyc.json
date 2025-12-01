@@ -6,11 +6,11 @@
   "architecture": {
     "64bit": {
       "url": "https://github.com/depau/ttyc/releases/download/ttyc-v0.4/ttyc-v0.4-windows-amd64.exe",
-      "hash": "650fefc615744084b2e7038d54d7cc57b2b669ec"
+      "hash": "sha1:650fefc615744084b2e7038d54d7cc57b2b669ec"
     },
     "arm64": {
       "url": "https://github.com/depau/ttyc/releases/download/ttyc-v0.4/ttyc-v0.4-windows-arm.exe",
-      "hash": "3b3ce83666488dcd620ffb6da5ca090250a3c6d8"
+      "hash": "sha1:3b3ce83666488dcd620ffb6da5ca090250a3c6d8"
     }
   }
 }
