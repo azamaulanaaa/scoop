@@ -1,0 +1,26 @@
+{
+  "version": "3.6.3",
+  "description": "Spin is a framework for building and running WebAssembly microservices.",
+  "homepage": "https://spinframework.dev",
+  "license": "Apache-2.0",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/spinframework/spin/releases/download/v3.6.3/spin-v3.6.3-windows-amd64.zip",
+      "hash": "sha256:AEF6E0D8E1300C26D5CEEF19E9AB3E13003B9D8DC408A0913AF7763ED96C8855"
+    }
+  },
+  "bin": [
+    "spin.exe"
+  ],
+  "checkver": {
+    "url": "https://github.com/spinframework/spin/releases/latest",
+    "regex": "tag/v([\\d.]+)"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/spinframework/spin/releases/download/v$version/spin-v$version-windows-amd64.zip"
+      }
+    }
+  }
+}
